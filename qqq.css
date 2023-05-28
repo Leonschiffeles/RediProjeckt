@@ -1,0 +1,222 @@
+body {
+    background: url(Bild/B1.jpg);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    padding-left: 110px;
+    padding-top: 30px;
+}
+
+.bild0 {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;    
+}
+
+.bild0:hover {
+    width: 145px; 
+    height: 145px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px  rgba(0,0,0,0.6);
+
+}
+
+.title {
+    background: rgba(0,0,0,0.6);
+    height: 300px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.title1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: #edf3f7;
+    float: right;
+    padding-top: 80px;
+    padding-right: 25px;
+
+}
+
+.title1 a {
+    font-size: 30px;
+    color: #edf3f7;
+}
+
+.title1 a:hover {
+    font-size: 29px;
+    color: transparent;
+    text-shadow: #90dff3 0 0 3px;
+}
+
+.dievideo {
+    margin-top: 200px;
+    margin-left: 40px;
+    box-shadow: rgba(0,0,0,0.6) 10px 10px 10px;
+    width: 560px; 
+    height: 315px;
+}
+
+.Kalkulator {
+
+}
+
+.Bild {
+    border-left: 4px solid #e0e4e6;
+    margin-right: 40px;
+    float: right;
+    display: block;
+}
+
+.Bild a {
+    text-decoration: none;
+    display: block;
+    margin: 15px;
+    padding: 15px;
+    width: 160px; 
+    height: 150px;
+    border-radius: 50%;
+}
+
+.bild1 {
+    margin-right: 70px;
+    width: 160px; 
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px  rgba(0,0,0,0.6);
+    
+}
+.bild1:hover {
+    border: 4px solid #e0e4e6;
+    width: 180px; 
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: none;
+}
+
+.bild2 {
+    margin-right: 15px;
+    width: 160px; 
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px  rgba(0,0,0,0.6);
+}
+.bild2:hover {
+    border: 4px solid #e0e4e6;
+    width: 180px; 
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: none;
+}
+
+.bild3 {
+    margin-right: 15px;
+    width: 160px; 
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px  rgba(0,0,0,0.6);
+}
+.bild3:hover {
+    border: 4px solid #e0e4e6;
+    width: 180px; 
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: none;
+}
+
+.bild4 {
+    margin-right: 70px;
+    width: 160px; 
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px  rgba(0,0,0,0.6);
+}
+.bild4:hover {
+    border: 4px solid #e0e4e6;
+    width: 180px; 
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: none;
+}
+
+.Menu {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.menu, .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} 
+
+.menu {
+    color: #edf3f7;
+    text-align: center;
+    font-size: 40px;
+    list-style: none;    
+    height: 30px;
+}
+
+.MenU {
+    font-size: 30px;
+    margin-right: 70px;
+    margin-left: 70px;
+    position: relative;
+}
+
+.menu  > li {
+    display: inline-block;
+    position: relative;
+    border-right: 4px solid  #e0e4e6;
+    font-size: 22px;
+    text-align: left;
+}
+
+.menu > li:hover {
+    color: transparent;
+    text-shadow: #04000a 0 3px 9px;
+}
+
+.menu > li a:hover {
+    font-size: 30px;
+    color: #90dff3;
+}
+
+.menu  > li:last-child {
+    border-right: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #e4e3f9;
+    display: block;
+}
+
+.MenU:hover {
+    font-size: 30px;
+    color: transparent;
+    text-shadow: #890af8 0 0 3px;
+}
+
+.menu ul {
+    position: absolute;
+    display: none;
+}
+
+.menu li:hover ul { 
+    display: block;
+}
